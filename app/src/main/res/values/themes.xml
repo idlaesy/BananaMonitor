@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.DayNight." parent="android:Theme.Material.Light.NoActionBar" />
+    <item name="colorPrimary" type="color">@color/main_green</item>
+
+    <style name="Theme.BanamonSplashScreen" parent="Base.Theme.DayNight."/>
+    <style name="Theme.App.Splashscreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/main_green</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logobanamon</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.DayNight.</item>
+    </style>
+
+
+
+</resources>
