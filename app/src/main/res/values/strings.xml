@@ -1,4 +1,13 @@
 <resources>
-    <string name="app_name">banamon</string>
+    <string name="app_name">  BanaMon</string>
     <string name="motto">always know your banana</string>
+    <string name="logodescription">logo</string>
+    <string name="scan">Scan</string>
+    <string name="report">Report</string>
+    <string name="article">Article</string>
+    <string name="latest">Latest</string>
+    <string name="banner">Banner</string>
+    <string name="Home">Home</string>
+    <string name="Camera">Camera</string>
+    <string name="Setting">Setting</string>
 </resources>

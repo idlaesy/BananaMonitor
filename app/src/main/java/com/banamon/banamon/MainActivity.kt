@@ -21,8 +21,7 @@ import com.banamon.banamon.ui.theme.BanamonTheme
         setContent {
             BanamonTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    Greeting(name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.banamon.banamon"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -50,7 +50,10 @@ android {
 }
 
 dependencies {
-    implementation("androidx.core:core-splashscreen:1.0.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.2.0-beta01")
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.1.0-beta01")
+    implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation ("androidx.cardview:cardview:1.0.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -59,6 +62,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.androidx.fragment)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

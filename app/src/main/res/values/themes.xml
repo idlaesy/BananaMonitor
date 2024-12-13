@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Base.Theme.DayNight." parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Base.Theme.Banamon." parent="android:Theme.Material.Light.NoActionBar" />
     <item name="colorPrimary" type="color">@color/main_green</item>
 
-    <style name="Theme.BanamonSplashScreen" parent="Base.Theme.DayNight."/>
+    <style name="Theme.BanamonSplashScreen" parent="Base.Theme.Banamon."/>
     <style name="Theme.App.Splashscreen" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/main_green</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/logobanamon</item>
-        <item name="postSplashScreenTheme">@style/Base.Theme.DayNight.</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Banamon.</item>
     </style>
+
+    <style name="TitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_green</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:font">@font/poppins_bold</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+
 
 
 
